@@ -71,8 +71,6 @@ st.markdown(
 "You may need to pip install in our terminal for example pip install vega_datasets "
 )
 
-import altair as alt
-from vega_datasets import data
 
 source = pd.read_csv('us-employment.csv')
 st.write(source)
