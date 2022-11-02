@@ -72,7 +72,7 @@ st.markdown(
 )
 
 
-source = pd.read_csv('us-employment.csv')
+source = pd.read_json('us-employment.json')
 st.write(source)
 
 Bar = alt.Chart(source).mark_bar().encode(
